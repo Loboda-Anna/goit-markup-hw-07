@@ -14,27 +14,27 @@
 <body>
     <header class="page-header">
         <nav class="site-nav container">
-            <a class="logo" href="./index.html"><span>Web</span>Studio</a>
-            <ul class="nav-links">
-                <li><a class="link" href="./index.html">Студія</a></li>
+            <a class="logo" href="./index.html"><span class="logo_accent">Web</span>Studio</a>
+            <ul class="site-nav__links">
+                <li><a class="link " href="./index.html">Студія</a></li>
                 <li><a class="link current-page" href="./portfolio.html">Портфоліо</a></li>
                 <li><a class="link" href="#">Контакти</a></li>
             </ul>
     
             <ul class="contacts">
     
-                <li>
+                <li class="email">
     
-                    <a class="link" href="mailto:info@devstudio.com">
-                        <svg class="icon-envelope" width="16" height="12">
+                    <a class="link contacts__link" href="mailto:info@devstudio.com">
+                        <svg class="email__icon" width="16" height="12">
                             <use href="./images/icons.svg#envelope"></use>
                         </svg>info@devstudio.com</a>
                 </li>
     
-                <li>
+                <li class="tel-number">
     
-                    <a class="link" href="tel:+380961111111">
-                        <svg class="icon-smartphone" width="10" height="16">
+                    <a class="link contacts__link" href="tel:+380961111111">
+                        <svg class="tel-number__icon" width="10" height="16">
                             <use href="./images/icons.svg#smartphone"></use>
                         </svg>+38 096 111 11 11</a>
                 </li>
@@ -177,8 +177,8 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <div class="footer-flex">
-                <div><a class="logo" href="./index.html"><span>Web</span>Studio</a>
+            <div class="footer__flex-wrapper">
+                <div><a class="logo footer__logo" href="./index.html"><span class="logo_accent">Web</span>Studio</a>
                     <address>
                         <ul>
                             <li> <a class="address" href="https://goo.gl/maps/Kr54QGm5XWJGk6s87" target="_blank"
@@ -188,48 +188,50 @@
                         </ul>
                     </address>
                 </div>
-                <div class="join">
-                    <p class="subscr-title">Приєднуйтесь</p>
-                    <ul class="footer-socials">
+                <div class="owner-socials">
+                    <p class="owner-socials__title">Приєднуйтесь</p>
+                    <ul class="owner-socials__items">
                         <li>
-                            <a class="social-btn footer-social-btn" href="" rel="noopener noreferrer">
+                            <a class="social-btn owner-socials__btn" href="#" rel="noopener noreferrer">
                                 <svg class="btn-icon" width="20" height="20">
                                     <use href="./images/icons.svg#instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
-                            <a class="social-btn footer-social-btn" href="" rel="noopener noreferrer">
+                            <a class="social-btn owner-socials__btn" href="#" rel="noopener noreferrer">
                                 <svg class="btn-icon" width="20" height="20">
                                     <use href="./images/icons.svg#twitter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
-                            <a class="social-btn footer-social-btn" href="" rel="noopener noreferrer">
+                            <a class="social-btn owner-socials__btn" href="#" rel="noopener noreferrer">
                                 <svg class="btn-icon" width="20" height="20">
                                     <use href="./images/icons.svg#facebook"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
-                            <a class="social-btn footer-social-btn" href="" rel="noopener noreferrer">
+                            <a class="social-btn owner-socials__btn" href="#" rel="noopener noreferrer">
                                 <svg class="btn-icon" width="20" height="20">
                                     <use href="./images/icons.svg#linkedin"></use>
                                 </svg>
                             </a>
                         </li>
+    
                     </ul>
                 </div>
+    
                 <div class="subscription">
                     <form class="subscr-form">
                         <label>
-                            <span class="subscr-title">Підпишіться на розсилку</span>
-                            <input type="email" class="subscr-email-field" placeholder="E-mail" name="subscr_user_email"
-                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                            <span class="subscr-form__title">Підпишіться на розсилку</span>
+                            <input type="email" class="subscr-form__email-field" placeholder="E-mail"
+                                name="subscr_user_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                         </label>
-                        <button class="subscribe-btn button" type="submit">Підписатися
-                            <svg class="subscr-icon">
+                        <button class="subscr-form__btn button" type="submit">Підписатися
+                            <svg class="subscr-form__icon">
                                 <use href="./images/icons.svg#icon-send" width="24" height="24"></use>
                             </svg>
                         </button>

@@ -1,7 +1,7 @@
 .address{
         font-style: normal;
-        font-weight: 400;
-        line-height: 1.71;
+        @include font($lh:1.71);
+
 
         color: var(--the-lightest);
         transition: color var(--transition-dur-and-func);

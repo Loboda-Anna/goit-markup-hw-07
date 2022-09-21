@@ -10,9 +10,8 @@
 }
 
 .clients__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align;
+    
     width: 170px;
     height: 92px;
     color: var(--icons-fill);
